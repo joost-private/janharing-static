@@ -1,0 +1,97 @@
+/* Menu classes */
+
+td.menu_main {
+	width: 278px; 
+	background-image: url('../images/rbackground_menu.gif'); 
+	background-repeat: repeat-y; 	
+}
+
+table.menu_block {
+	background-image: url('../images/background_menu.gif'); 
+	background-repeat: no-repeat; 	
+}
+
+td.menu_button {
+	border-bottom-width: 3px;
+	border-right-width: 3px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-color: #233b4f;
+	border-style: solid;
+	line-height: 32px;
+}
+
+a.menu_link, a:link.menu_link, a:visited.menu_link {
+	text-decoration: none;
+	color: #233b4f;
+	display: block;
+	height: 32px;
+	padding-left: 15px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	font-weight: bold;
+  font-size: 20px;
+  font-family: Tahoma, Sans-Serif;
+  text-decoration: none;
+}
+
+a:hover.menu_link, a:active.menu_link {
+	background: #233b4f; 
+	color: #f1f5f8;
+	text-decoration: none;
+}
+
+a.menu_link_selected, a:link.menu_link_selected, a:visited.menu_link_selected {
+	text-decoration: none;
+  background: #233b4f; 
+	color: #f1f5f8;
+	display: block;
+	height: 32px;
+	padding-left: 15px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Tahoma, Sans-Serif;
+}
+
+a.menu_link_sub, a:link.menu_link_sub, a:visited.menu_link_sub {
+	text-decoration: none;
+	color: #233b4f;
+	display: block;
+	height: 32px;
+	padding-left: 35px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	font-weight: bold;
+  font-size: 17px;
+  font-family: Tahoma, Sans-Serif;
+  text-decoration: none;
+}
+
+a:hover.menu_link_sub, a:active.menu_link_sub {
+	background: #233b4f; 
+	color: #f1f5f8;
+	text-decoration: none;
+}
+
+a.menu_link_sub_selected, a:link.menu_link_sub_selected, a:visited.menu_link_sub_selected {
+	text-decoration: none;
+  background: #233b4f; 
+	color: #f1f5f8;
+	display: block;
+	height: 32px;
+	padding-left: 35px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	font-weight: bold;
+  font-size: 17px;
+  font-family: Tahoma, Sans-Serif;
+  text-decoration: none;
+}
+
+div.menu_list {
+  background-image: url('../images/menu_list.gif'); 
+	background-repeat: repeat-y; 	
+}

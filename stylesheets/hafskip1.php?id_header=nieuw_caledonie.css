@@ -1,0 +1,17 @@
+
+/* Stylesheets for template hafskip1_ */
+
+/* CSS classes for all header-related items */
+@import url(hafskip1_header.php%3Fid_header=nieuw_caledonie.css);
+
+/* CSS classes for all menu-related items */
+@import url(hafskip1_menu.css);
+
+/* CSS classes for all text-related items */
+@import url(hafskip1_text.css);
+
+/* CSS classes for all map-related items */
+@import url(hafskip1_maps.css);
+
+/* CSS classes for all mail-related items */
+@import url(hafskip1_mail.css);

@@ -1,0 +1,19 @@
+/* Maps classes */
+
+iframe.log_map {
+	border-width: 3px;
+	border-color: #233b4f;
+	border-style: solid;	
+	float: right;
+	margin-left: 15px;
+	
+	margin-bottom: 15px;
+}
+
+iframe.big_map {
+	border-width: 3px;
+	border-color: #233b4f;
+	border-style: solid;	
+	margin-left: 5px;
+	margin-top: 5px;
+}

@@ -1,0 +1,84 @@
+	
+/* Header classes */
+
+body {
+	background: #ffffff;
+	background-image: url('../images/background_main.png'); 
+	background-repeat: repeat-x;
+}
+
+table.header_site {
+	width: 980px; 
+	height: 250px; 
+	border-width: 0px 0px 3px 0px;
+	border-style: solid;
+	border-color: #263b50;
+}
+
+span.hidden {
+	display: none;
+}
+
+img.header_text {
+	position: relative;
+	top: 109px;
+	left: 373px;
+}
+
+a img.thumb_header, a:link img.thumb_header, a:visited img.thumb_header {
+	width: 160px;
+	height: 120px;
+	border: 2px solid #263b50;		
+}
+
+a:hover img.thumb_header, a:active img.thumb_header {
+	border: 2px solid #e4ebf3;		
+}
+
+td.thumb_cell {
+	font-size: 16px;
+	font-family: Verdana;  
+	padding: 15px 0px 0px 30px;	
+	color: #e4ebf3;
+}
+
+.thumbnail-1 {
+	margin: 0px 0px 0px 60px;
+}
+
+a.thumbnail, a:link.thumbnail, a:visited.thumbnail {
+	background: #263b50;
+	display: block;
+	color: #e4ebf3;
+	text-decoration: none;
+	padding: 0px 0px 4px 0px;
+}
+
+a:active.thumbnail, a:hover.thumbnail {
+	background: #e4ebf3;
+	display: block;
+	color: #263b50;
+	text-decoration: none;
+}
+
+a.thumbnail-1, a:link.thumbnail-1, a:visited.thumbnail-1 {
+	background: #263b50;
+	display: block;
+	color: #e4ebf3;
+	text-decoration: none;
+	padding: 0px 0px 4px 0px;
+}
+
+a:active.thumbnail-1, a:hover.thumbnail-1 {
+	background: #e4ebf3;
+	display: block;
+	color: #263b50;
+	text-decoration: none;
+}
+
+/* HEADERS */
+
+#venezuela {
+	background-image: url('../images/headers/venezuela.jpg'); 
+	background-repeat: no-repeat; 		
+}

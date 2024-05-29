@@ -1,0 +1,51 @@
+/* Mail classes */
+
+input.mailform {
+  font-size: 16px;
+	font-family: Tahoma, Sans-Serif;
+	color: #233b4f;
+	width: 300px;
+	padding: 3px;
+	background: #ffffff;
+}
+
+select.mailform {
+  font-size: 16px;
+	font-family: Tahoma, Sans-Serif;
+	color: #233b4f;
+	width: 300px;
+	padding: 3px;
+	background: #ffffff;
+}
+
+td.explanation {
+	width: 670px;
+}
+
+textarea.mailform {
+  font-size: 16px;
+	font-family: Tahoma, Sans-Serif;
+	color: #233b4f;
+	width: 400px;
+	height: 400px;
+	padding: 3px;
+	background: #ffffff;
+}
+
+textarea.gastenform {
+  font-size: 16px;
+	font-family: Tahoma, Sans-Serif;
+	color: #233b4f;
+	width: 400px;
+	height: 100px;
+	padding: 3px;
+	background: #ffffff;
+}
+
+td.first_colom {
+  width: 160px;
+}
+
+span.red {
+  color: #FF0000;
+}

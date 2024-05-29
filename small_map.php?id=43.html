@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <script src="http://maps.google.com/maps?file=api&v=1&key=ABQIAAAAbH3yrhbE8vpP03tmRx5Q9xTfJuchuA1P1W7JWGbD4dA11g2G7RQ5h2YRCp_t-NfFT9dshV_rNvAxTA" type="text/javascript"></script>
+  </head>
+  <body marginwidth="0" marginheight="0">
+  	    <div id="map" style="width: 450px; height: 510px; position: absolute; left: 0px"></div>
+    <script type="text/javascript">
+    //<![CDATA[   
+    var map = new GMap(document.getElementById("map"));
+		//map.setMapType(G_HYBRID_TYPE);
+    var point = new GPoint(-4.5833333333333,48.283333333333) 
+    map.centerAndZoom(point, 1);    
+    map.addControl(new GSmallZoomControl());
+    map.addOverlay(new GMarker(point));    
+    map.setMapType(G_HYBRID_MAP);     
+    //]]>
+    </script>  
+  </body>
+</html>
